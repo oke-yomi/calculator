@@ -53,7 +53,7 @@ operationEl.forEach(operation => {
     if(!dis2Num) return;
     
     haveDot = false;
-    const operationName = e.target.innerText;
+    let operationName = e.target.innerText;
     if(dis1Num && dis2Num && lastOperation) {
       mathOperation();
     } else {
